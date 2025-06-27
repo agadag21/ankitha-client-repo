@@ -1,14 +1,15 @@
-// Client data
+// Client data with accurate information
 const clientData = {
   meta: {
     title: "Meta | Facebook",
-    subtitle: "Product Leadership & ML Solutions",
+    subtitle: "Technical Product Manager",
     description:
       "Assembled and led cross-functional teams to successfully deliver products and ML models across Meta's core investments:",
     highlights: [
-      "Collaborated across 135+ internal customers",
-      "Fueled $1 billion in creator programs",
-      "Delivered ML-driven personalization solutions",
+      "Collaborated across 135+ internal customers and fueled $1 billion in creator programs",
+      "Launched a 'Skills' data platform supporting over 100k employees with 87% positive sentiment score",
+      "Scaled support coverage for developer pain points by 400% through ML driven personalization",
+      "Achieved 210% increase in engineering productivity through global roadmap process implementation",
     ],
     projects: [
       {
@@ -17,7 +18,7 @@ const clientData = {
           "Launched a 'Skills' data platform which supported over 100k employees and a Career Expectations UI, resulting in improved workforce efficiency, talent mobility and equity in the performance review process noted by 87% positive sentiment score.",
       },
       {
-        title: "Product Team Leadership",
+        title: "Developer Support Platform",
         description:
           "Assembled and led a product team from ideation to a successful 0-1 launch building support for the 700k+ external developers using Meta's services. Scaled support coverage for top developer pain points by 400% through ML driven personalization and self-serve resources.",
       },
@@ -32,112 +33,210 @@ const clientData = {
           "Designed a channel for escalations and developed a prioritization framework for ad-hoc requests. Identified manual redundancies and designed a plug-in for automation of prioritization, reducing overhead of maintenance by 360+ hours.",
       },
     ],
-    technologies: ["Machine Learning", "Python", "React", "GraphQL", "Data Analytics", "Product Management", "Agile"],
+    technologies: [
+      "Machine Learning",
+      "Product Management",
+      "Data Analytics",
+      "Agile",
+      "Cross-functional Leadership",
+      "Developer Tools",
+    ],
+    focus: "Creators, People Products, Customer Care, and Trust & Safety",
   },
-  google: {
-    title: "Google",
-    subtitle: "Search Infrastructure & Analytics",
+  ea: {
+    title: "Electronic Arts",
+    subtitle: "Consultant | Product Manager",
     description:
-      "Led the development of search infrastructure improvements and analytics platforms that enhanced query processing speed and user experience across multiple Google products.",
+      "Spearheaded organizational change management through workforce tooling adoption & agile development processes.",
     highlights: [
-      "Improved query processing speed by 40%",
-      "Enhanced user experience for 500M+ daily users",
-      "Developed real-time analytics dashboards for product teams",
+      "Annual cost saving of $540k and increased work intake by 780%",
+      "Managed Security Operations for EA, reporting to CISO",
+      "Delivered secured Golden Images across several operating systems",
+      "Automated Identity certificate provisioning reducing lead times from 24 hours to real-time",
     ],
     projects: [
       {
-        title: "Search Query Optimization",
+        title: "Security Operations Management",
         description:
-          "Redesigned the query processing pipeline to reduce latency by 40% and improve result relevance through advanced machine learning algorithms.",
+          "Managed the Security Operations for EA, and reported to intra-organizational security divisions, including the CISO. Delivered secured Golden Images across several operating systems for Public, Private cloud, Maas and automated image creation process through CI/CD pipeline.",
       },
       {
-        title: "Analytics Platform",
+        title: "Kanban Training Program",
         description:
-          "Built a comprehensive analytics platform that provided real-time insights into user behavior, enabling product teams to make data-driven decisions and improve user engagement by 25%.",
-      },
-    ],
-    technologies: ["TensorFlow", "BigQuery", "Cloud Dataflow", "Java", "Python", "Data Analytics", "Machine Learning"],
-  },
-  amazon: {
-    title: "Amazon",
-    subtitle: "Supply Chain Optimization",
-    description:
-      "Led the development of supply chain optimization algorithms that significantly improved delivery times and inventory management across multiple distribution centers.",
-    highlights: [
-      "Reduced delivery times by 22%",
-      "Improved inventory management across 15 distribution centers",
-      "Increased customer satisfaction scores by 18%",
-    ],
-    projects: [
-      {
-        title: "Predictive Inventory System",
-        description:
-          "Developed an AI-driven predictive inventory system that reduced stockouts by 35% and optimized warehouse space utilization by 28%.",
+          "Developed and delivered over 20 formal Kanban trainings to global teams across an organization of 300 engineers and managers.",
       },
       {
-        title: "Last-Mile Delivery Optimization",
+        title: "Identity Certificate Automation",
         description:
-          "Created routing algorithms that improved last-mile delivery efficiency by 22%, reducing fuel costs and environmental impact while improving delivery speed.",
+          "Automated Identity certificate provisioning for internal EA partners, which led to reduction of lead times from 24 hours to real-time.",
       },
     ],
     technologies: [
-      "AWS",
-      "Python",
-      "Operations Research",
-      "Machine Learning",
-      "Supply Chain",
-      "Logistics",
-      "Optimization Algorithms",
+      "Security Operations",
+      "CI/CD",
+      "Kanban",
+      "Cloud Infrastructure",
+      "Identity Management",
+      "Agile Training",
     ],
+    focus: "Organizational Change Management & Security Operations",
   },
-  microsoft: {
-    title: "Microsoft",
-    subtitle: "Azure Cloud Solutions",
+  ibm: {
+    title: "IBM",
+    subtitle: "Consultant",
     description:
-      "Architected cloud migration strategies for enterprise clients, resulting in significant cost reduction and improved system reliability.",
+      "Managed all aspects of a cloud-native, greenfield product set to innovate the Tax and Accounting industry.",
     highlights: [
-      "35% cost reduction for enterprise clients",
-      "Achieved 99.99% system uptime",
-      "Migrated 200+ applications to Azure cloud",
+      "Managed several agile release trains and implemented WSJF prioritization framework",
+      "Increased engineering team's velocity by 25%",
+      "Oversaw more than $20M in portfolio budgets",
+      "Estimated to produce 8-Figure in revenue",
     ],
     projects: [
       {
-        title: "Enterprise Cloud Migration",
+        title: "Tax & Accounting Innovation Platform",
         description:
-          "Led comprehensive cloud migration projects for Fortune 500 companies, ensuring seamless transition with minimal downtime.",
+          "Managed all aspects of a cloud-native, greenfield product set to innovate the Tax and Accounting industry. Estimated to produce 8-Figure in revenue.",
+      },
+      {
+        title: "Agile Release Train Management",
+        description:
+          "Managed several agile release trains, conducted scrum of scrums and implemented a WSJF (Weighted Shortest Job First) prioritization framework to features increasing engineering team's velocity by 25%.",
+      },
+      {
+        title: "Portfolio Budget Management",
+        description:
+          "Oversaw more than $20M in portfolio budgets and developed detailed Product Planning (PI Planning) sessions to build one-year product roadmap considering strategic objectives.",
       },
     ],
-    technologies: ["Azure", ".NET", "Kubernetes", "Docker", "CI/CD", "Cloud Architecture"],
+    technologies: [
+      "Cloud-Native Development",
+      "Agile Release Trains",
+      "WSJF",
+      "Portfolio Management",
+      "Product Planning",
+      "Scrum of Scrums",
+    ],
+    focus: "Tax and Accounting Industry Innovation",
   },
-  salesforce: {
-    title: "Salesforce",
-    subtitle: "Customer Experience Platform",
+  wfm: {
+    title: "Whole Foods Market",
+    subtitle: "Consultant | Product Manager",
     description:
-      "Developed custom CRM solutions that increased sales team efficiency and improved customer retention rates through enhanced data analytics and personalization.",
-    highlights: ["45% increase in sales team efficiency", "28% improvement in customer retention"],
+      "Responsible for launching a $3 Million digital experience for 365 by WFM, a new value driven grocery store by Whole Foods Market.",
+    highlights: [
+      "Launched $3 Million digital experience for 365 by WFM",
+      "New online sales channel added an additional $40 per cart",
+      "Integrated with 365's robust loyalty program",
+      "Managed team of 7 engineers using Kanban Agile framework",
+    ],
     projects: [
       {
-        title: "Custom CRM Solutions",
+        title: "365 by WFM Digital Experience",
         description:
-          "Built tailored CRM workflows and automation that streamlined sales processes and improved customer relationship management.",
+          "Responsible for launching a $3 Million digital experience for 365 by WFM, a new value driven grocery store by Whole Foods Market. The new online sales channel integrated with the 365's robust loyalty program was responsible for adding an additional $40 per cart.",
+      },
+      {
+        title: "Team Management & Process Improvement",
+        description:
+          "Managed a team of 7 engineers by implementing a Kanban Agile framework. Identified team SLA's and KPI's to set up dashboards and reporting metrics. Formulated various process improvement workflows to meet critical milestones.",
+      },
+      {
+        title: "Vendor Relationship Management",
+        description:
+          "Managed key vendor relationships with a hands on approach, to ensure SOW alignment. Collaborated with global executive stakeholders to roadmap significant marketing & media buy-ins to build project plan.",
       },
     ],
-    technologies: ["Salesforce", "Apex", "Lightning Web Components", "CRM", "Data Analytics"],
+    technologies: [
+      "Digital Commerce",
+      "Loyalty Programs",
+      "Kanban",
+      "Team Management",
+      "Vendor Management",
+      "KPI Dashboards",
+    ],
+    focus: "Digital Retail Experience & Loyalty Integration",
   },
-  adobe: {
-    title: "Adobe",
-    subtitle: "Creative Cloud Integration",
+  pizzahut: {
+    title: "Pizza Hut | QuikOrder",
+    subtitle: "Product Manager",
     description:
-      "Led the integration of AI-powered features into Creative Cloud applications, enhancing user productivity and expanding market reach to new customer segments.",
-    highlights: ["30% increase in user productivity", "Expanded market reach to new customer segments"],
+      "Delivered the Pizza Hut rebrand and marketing image by rolling out an improved, scalable platform across all digital channels.",
+    highlights: [
+      "2015 Superbowl broke sales records delivering over $10 Million in online sales",
+      "AngularJS website responsible for generating over 30% of sales",
+      "Enhanced customer experience with real-time order tracking",
+      "Improved delivery management through real time GPS tracking",
+    ],
     projects: [
       {
-        title: "AI-Powered Creative Tools",
+        title: "Digital Rebrand & Platform Rollout",
         description:
-          "Integrated machine learning capabilities into creative applications to automate repetitive tasks and enhance user creativity.",
+          "Delivered the Pizza Hut rebrand and marketing image by rolling out an improved, scalable platform across all digital channels. AngularJS website is responsible for generating over 30% of sales.",
+      },
+      {
+        title: "Real-Time Order Tracking",
+        description:
+          "Enhanced customer experience by customizing functionality allowing customers to track the status of their orders real-time. Improved customer service and provided for better management of delivery drivers through real time GPS tracking.",
+      },
+      {
+        title: "Superbowl Sales Record",
+        description:
+          "Managed internal and external teams to secure infrastructure and environment stability for 2015 Superbowl. 2015 Superbowl broke sales records by delivering over $10 Million in online sales.",
+      },
+      {
+        title: "Revenue Generation & SOW Management",
+        description:
+          "Created and negotiated SOW's that resulted in over $8M in revenue by defining scope, timelines, resource requirements. Successfully delivered several mid-large scale projects on time and on budget while reporting to C-Level Suite.",
       },
     ],
-    technologies: ["Adobe Creative Cloud", "AI/ML", "JavaScript", "React", "UX Design"],
+    technologies: [
+      "AngularJS",
+      "Real-time Tracking",
+      "GPS Integration",
+      "Digital Marketing",
+      "Infrastructure Management",
+      "Revenue Optimization",
+    ],
+    focus: "Digital Rebrand & Sales Optimization",
+  },
+  aetna: {
+    title: "Aetna Healthcare",
+    subtitle: "Product Owner",
+    description:
+      "Developed and managed a $2 Million project called Money2 for Health, a digital wallet that simplifies healthcare payments for consumers and providers.",
+    highlights: [
+      "Developed $2 Million Money2 for Health digital wallet project",
+      "Designed $1 Million investment platform for HSA fund management",
+      "Won Edison Award for Payment Innovation and 2013 Top Innovation in Banking",
+      "Estimated to deliver $20 Million in revenue by 2016",
+    ],
+    projects: [
+      {
+        title: "Money2 for Health Digital Wallet",
+        description:
+          "Developed and managed a $2 Million project called Money2 for Health, a digital wallet that simplifies healthcare payments for consumers and providers. Partnered with Citibank to launch Money2 for Health to millions of members in 2013.",
+      },
+      {
+        title: "HSA Investment Platform",
+        description:
+          "Designed a $1 Million investment platform for users to manage HSA funds according to their desired risk strategies.",
+      },
+      {
+        title: "Award-Winning Innovation",
+        description:
+          "The new service has won numerous awards including an Edison Award for Payment Innovation and a 2013 Top Innovation in Banking from the American Banker magazine. Estimated to deliver $20 Million in revenue by 2016.",
+      },
+    ],
+    technologies: [
+      "Digital Wallets",
+      "Healthcare Payments",
+      "HSA Management",
+      "Financial Services",
+      "Payment Innovation",
+      "Banking Integration",
+    ],
+    focus: "Healthcare Payment Innovation & Digital Wallets",
   },
 }
 
@@ -209,6 +308,8 @@ function showClientDetails(clientKey) {
     <p style="color: #a78bfa; font-size: 1.125rem; margin-bottom: 24px; font-weight: 500;">${client.subtitle}</p>
     <p style="color: #d1d5db; margin-bottom: 24px; line-height: 1.7;">${client.description}</p>
     
+    ${client.focus ? `<p style="color: #fbbf24; margin-bottom: 24px; font-weight: 500; font-style: italic;">Focus Area: ${client.focus}</p>` : ""}
+    
     <h3 style="color: #ffffff; margin-bottom: 16px; font-size: 1.25rem;">Key Achievements</h3>
     <ul style="color: #d1d5db; margin-bottom: 32px; padding-left: 20px;">
       ${client.highlights.map((highlight) => `<li style="margin-bottom: 8px; line-height: 1.6;">${highlight}</li>`).join("")}
@@ -228,7 +329,7 @@ function showClientDetails(clientKey) {
         .join("")}
     </div>
     
-    <h3 style="color: #ffffff; margin-bottom: 16px; font-size: 1.25rem;">Technologies Used</h3>
+    <h3 style="color: #ffffff; margin-bottom: 16px; font-size: 1.25rem;">Technologies & Skills</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 8px;">
       ${client.technologies
         .map(
