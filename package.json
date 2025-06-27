@@ -1,0 +1,18 @@
+{
+  "name": "ankitha-client-portfolio",
+  "version": "1.0.0",
+  "description": "Client Portfolio for Ankitha Gadag",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve .",
+    "build": "echo 'Build complete'",
+    "start": "serve ."
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  },
+  "devDependencies": {},
+  "keywords": ["portfolio", "client-work", "product-management"],
+  "author": "Ankitha Gadag",
+  "license": "MIT"
+}
