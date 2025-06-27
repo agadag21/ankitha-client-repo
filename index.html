@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankitha Gadag - Client Portfolio</title>
+    <meta name="description" content="Professional portfolio showcasing client work and product leadership experience across leading technology companies including Meta, Google, Amazon, Microsoft, Salesforce, and Adobe.">
+    <meta name="keywords" content="Product Management, Technical Leadership, Machine Learning, Client Portfolio, Meta, Google, Amazon">
+    <meta name="author" content="Ankitha Gadag">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-portfolio.vercel.app/">
+    <meta property="og:title" content="Ankitha Gadag - Client Portfolio">
+    <meta property="og:description" content="Professional portfolio showcasing client work and product leadership experience">
+    <meta property="og:image" content="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1732299914389.jpg-MoIZXRGeRCtSAmGaRJgzAsA4anPmRK.jpeg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://your-portfolio.vercel.app/">
+    <meta property="twitter:title" content="Ankitha Gadag - Client Portfolio">
+    <meta property="twitter:description" content="Professional portfolio showcasing client work and product leadership experience">
+    <meta property="twitter:image" content="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1732299914389.jpg-MoIZXRGeRCtSAmGaRJgzAsA4anPmRK.jpeg">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="portfolio-container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <span class="brand-name">Ankitha Gadag</span>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <div class="nav-toggle" id="navToggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-background"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Client Portfolio</h1>
+                    <p class="hero-description">
+                        A showcase of successful partnerships and transformative product leadership across leading technology companies.
+                    </p>
+                    <div class="hero-badges">
+                        <span class="badge badge-purple">Product Leadership</span>
+                        <span class="badge badge-teal">Technical Strategy</span>
+                        <span class="badge badge-rose">Team Building</span>
+                        <span class="badge badge-amber">ML Solutions</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bio Section -->
+        <section class="bio-section" id="about">
+            <div class="container">
+                <div class="bio-content">
+                    <div class="bio-image">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1732299914389.jpg-MoIZXRGeRCtSAmGaRJgzAsA4anPmRK.jpeg" alt="Ankitha Gadag - Product Leadership & Technical Strategy Expert" loading="lazy" />
+                    </div>
+                    <div class="bio-text">
+                        <h2>About My Work</h2>
+                        <p>I am a results-driven and adaptable leader motivated by complex problems with no obvious solutions. With experience cultivating relationships with strategic partners across organizational levels, I build consensus and deliver results.</p>
+                        <p>My background spans various IT disciplines in software and product development. I have a track record of success shipping 0-1 technical platforms and customer-facing products at Big-Tech companies, while streamlining processes and implementing Agile solutions.</p>
+                        <div class="bio-buttons">
+                            <a href="#contact" class="btn btn-outline-purple">View Resume →</a>
+                            <a href="#contact" class="btn btn-outline-teal">Contact Me →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Client Portfolio Grid -->
+        <section class="portfolio-grid-section" id="portfolio">
+            <div class="container">
+                <h2 class="section-title">Client Portfolio</h2>
+                <p class="section-description">I've had the privilege of working with industry-leading companies to deliver impactful solutions and drive business growth.</p>
+                
+                <div class="portfolio-grid">
+                    <!-- Meta Card -->
+                    <div class="portfolio-card" data-client="meta">
+                        <div class="card-image card-image-meta">
+                            <div class="card-overlay"></div>
+                            <span class="card-badge badge-purple">Big Tech</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">
+                                <span class="card-icon">🏢</span>
+                                Meta | Facebook
+                            </h3>
+                            <p class="card-subtitle">Product Leadership & ML Solutions</p>
+                            <p class="card-description">Led cross-functional teams to deliver products and ML models across Meta's core investments in Creators, People Products, Customer Care, and Trust & Safety.</p>
+                            <button class="card-link" onclick="showClientDetails('meta')">View Details →</button>
+                        </div>
+                    </div>
+
+                    <!-- Google Card -->
+                    <div class="portfolio-card" data-client="google">
+                        <div class="card-image card-image-google">
+                            <div class="card-overlay"></div>
+                            <span class="card-badge badge-teal">Search & AI</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">
+                                <span class="card-icon">🌐</span>
+                                Google
+                            </h3>
+                            <p class="card-subtitle">Search Infrastructure & Analytics</p>
+                            <p class="card-description">Developed analytics platforms and search infrastructure improvements, resulting in 40% faster query processing and enhanced user experiences across multiple products.</p>
+                            <button class="card-link" onclick="showClientDetails('google')">View Details →</button>
+                        </div>
+                    </div>
+
+                    <!-- Amazon Card -->
+                    <div class="portfolio-card" data-client="amazon">
+                        <div class="card-image card-image-amazon">
+                            <div class="card-overlay"></div>
+                            <span class="card-badge badge-amber">E-Commerce</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">
+                                <span class="card-icon">💻</span>
+                                Amazon
+                            </h3>
+                            <p class="card-subtitle">Supply Chain Optimization</p>
+                            <p class="card-description">Led the development of supply chain optimization algorithms that reduced delivery times by 22% and improved inventory management across 15 regional distribution centers.</p>
+                            <button class="card-link" onclick="showClientDetails('amazon')">View Details →</button>
+                        </div>
+                    </div>
+
+                    <!-- Microsoft Card -->
+                    <div class="portfolio-card" data-client="microsoft">
+                        <div class="card-image card-image-microsoft">
+                            <div class="card-overlay"></div>
+                            <span class="card-badge badge-blue">Cloud Services</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">
+                                <span class="card-icon">🏢</span>
+                                Microsoft
+                            </h3>
+                            <p class="card-subtitle">Azure Cloud Solutions</p>
+                            <p class="card-description">Architected cloud migration strategies for enterprise clients, resulting in 35% cost reduction and improved system reliability with 99.99% uptime achievement.</p>
+                            <button class="card-link" onclick="showClientDetails('microsoft')">View Details →</button>
+                        </div>
+                    </div>
+
+                    <!-- Salesforce Card -->
+                    <div class="portfolio-card" data-client="salesforce">
+                        <div class="card-image card-image-salesforce">
+                            <div class="card-overlay"></div>
+                            <span class="card-badge badge-rose">CRM</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">
+                                <span class="card-icon">👥</span>
+                                Salesforce
+                            </h3>
+                            <p class="card-subtitle">Customer Experience Platform</p>
+                            <p class="card-description">Developed custom CRM solutions that increased sales team efficiency by 45% and improved customer retention rates through enhanced data analytics and personalization.</p>
+                            <button class="card-link" onclick="showClientDetails('salesforce')">View Details →</button>
+                        </div>
+                    </div>
+
+                    <!-- Adobe Card -->
+                    <div class="portfolio-card" data-client="adobe">
+                        <div class="card-image card-image-adobe">
+                            <div class="card-overlay"></div>
+                            <span class="card-badge badge-red">Creative Tools</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">
+                                <span class="card-icon">⚡</span>
+                                Adobe
+                            </h3>
+                            <p class="card-subtitle">Creative Cloud Integration</p>
+                            <p class="card-description">Led the integration of AI-powered features into Creative Cloud applications, enhancing user productivity by 30% and expanding market reach to new customer segments.</p>
+                            <button class="card-link" onclick="showClientDetails('adobe')">View Details →</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Client Details Modal -->
+        <div id="clientModal" class="modal">
+            <div class="modal-content">
+                <span class="modal-close" onclick="closeModal()">&times;</span>
+                <div id="modalBody"></div>
+            </div>
+        </div>
+
+        <!-- Call to Action -->
+        <section class="cta-section" id="contact">
+            <div class="container">
+                <h2>Interested in Working Together?</h2>
+                <p>I'm always open to discussing product strategy, leadership opportunities, or how I can help your organization deliver exceptional results.</p>
+                <div class="cta-buttons">
+                    <a href="mailto:contact@ankithagadag.com" class="btn btn-primary">Contact Me</a>
+                    <a href="#portfolio" class="btn btn-outline">View Services →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <span class="brand-name">Ankitha Gadag</span>
+                        <p class="footer-tagline">Product Leadership & Technical Strategy</p>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#about" class="footer-link">About</a>
+                        <a href="#portfolio" class="footer-link">Portfolio</a>
+                        <a href="#contact" class="footer-link">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Ankitha Gadag. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
